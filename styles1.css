@@ -1,0 +1,83 @@
+
+.container {
+    padding: 0px 100px;
+    
+}
+.heading {
+    height: 200px;
+}
+.heading-text{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(97, 7, 49);
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.row:hover{
+    transform: scale(1.1);
+}
+.blog{
+    width: 50%;
+}    
+.blog-heading{
+    font-size: 40px;
+}
+.blog-details{
+    height: 120px;
+    overflow: hidden;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.read-more{
+    text-decoration: none;
+    text-align: end;
+}
+.read-more a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icons{
+    font-size: 40px;
+}
+    input[type=text], select {
+        opacity: 0.7;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        background-color: #2d2b8f;
+        color: rgb(150, 219, 240);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #212074;
+      }
+      
+      div {
+        border-radius: 5px;
+        padding: 20px;
+      }
